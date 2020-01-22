@@ -95,7 +95,7 @@ Your class should contain the following methods:
 The default constructor for `Matrix` class which will initialize your class variables row, column to 0 and the 2D integer array to null.<br/>
 
 #### - `public Matrix(int row, int column)`<br/>
-The constructor for `Matrix` class which takes the integer inputs `row` and `column` (normal one-based indexing) and will be used for initializing your class variables row, column and the 2D integer array. For example, creating an object as `new Matrix(2,2)` should create a matrix with 2 rows and 2 columns. If the parameters passed are invalid (negative numbers) then initialize your class variables row, column to 0 and the 2D integer array to null<br/>
+The constructor for `Matrix` class which takes the integer inputs `row` and `column` and will be used for initializing your class variables row, column and the 2D integer array. For example, creating an object as `new Matrix(2,2)` should create a matrix with 2 rows and 2 columns. If the parameters passed are invalid (negative numbers) then initialize your class variables row, column to 0 and the 2D integer array to null<br/>
 
 #### - `public Matrix(Matrix mat)`<br/>
 The deep copy constructor for `Matrix` class which takes the Matrix object `mat` as an input and creates a deep copy of the matrix. The purpose of a deep copy constructor is to copy the contents of one object to another object and changing the copied object shouldn't change the contents of the original.<br/>
